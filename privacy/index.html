@@ -54,11 +54,11 @@
         <table>
           <thead><tr><th>Information</th><th>When and why it is processed</th><th>Typical handling</th></tr></thead>
           <tbody>
-            <tr><td>Recorded or imported audio</td><td>When you ask HolyNote to transcribe a sermon or recording and create a structured note.</td><td>Uploaded over encrypted HTTPS, temporarily stored for processing, then normally removed after the job finishes.</td></tr>
+            <tr><td>Recorded or imported audio and recording notes you enter</td><td>When you ask HolyNote to transcribe a sermon or recording and create a structured note. If you type notes during that recording, those notes are sent as context for the note you requested.</td><td>Uploaded over encrypted HTTPS and used for the requested processing. Audio is temporarily stored and then normally removed after the job finishes.</td></tr>
             <tr><td>YouTube link and derived audio or captions</td><td>When you ask HolyNote to create a note from content you are authorized to process.</td><td>The URL is sent to our server. Temporary media or captions are used to prepare the requested transcript and note, then normally removed after processing.</td></tr>
             <tr><td>Reviewed Scripture text and reference</td><td>When you confirm a scanned passage and request an AI study.</td><td>Text recognition begins on your device. The reviewed text, not the scan photo, is sent after you choose “Use this passage.”</td></tr>
             <tr><td>Questions and conversation context</td><td>When you ask the note assistant or Bible chat a question.</td><td>The question and relevant note or Scripture context are sent to create the requested answer.</td></tr>
-            <tr><td>Technical and security data</td><td>When the app connects to our service, to deliver requests, limit abuse, diagnose failures, and protect the Service.</td><td>May include IP address, request identifier, date and time, requested route, response status, app or device technical information, and error metadata. Request bodies and authorization credentials are redacted from application logs.</td></tr>
+            <tr><td>Technical and security data</td><td>When the app connects to our service, to deliver requests, verify paid access, limit abuse, diagnose failures, and protect the Service.</td><td>May include a random installation identifier, IP address, request identifier, date and time, requested route, response status, app or device technical information, and error metadata. The installation identifier links an AI request to its Adapty subscription profile and to jobs created by that installation. Request bodies and authorization credentials are redacted from application logs.</td></tr>
           </tbody>
         </table>
       </div>
@@ -83,14 +83,14 @@
       <ul>
         <li><strong>OpenAI</strong> — audio transcription and generation of requested AI notes, studies, and answers.</li>
         <li><strong>Apple</strong> — App Store distribution, payments, subscription management, device permissions, and optional notification services.</li>
-        <li><strong>Adapty</strong> — subscription status, paywall delivery, purchase analytics, and an anonymous app profile. It may process purchase history, app-instance or device identifiers, IP address, device model, operating system, language, and paywall interactions. See <a href="https://adapty.io/end-users-privacy/">Adapty’s End-Users Privacy Policy</a>.</li>
+        <li><strong>Adapty</strong> — subscription status, paywall delivery, purchase analytics, and an anonymous app profile. In HolyNote’s current iOS configuration, collection of the Apple advertising identifier (IDFA) and IP address by the Adapty SDK is disabled. Adapty may process purchase history, app-instance or other device identifiers, device model, operating system, language, and paywall interactions. See <a href="https://adapty.io/end-users-privacy/">Adapty’s End-Users Privacy Policy</a>.</li>
         <li><strong>AppsFlyer</strong> — installation attribution and measurement of selected app or subscription events. Depending on configuration and consent, it may process an AppsFlyer identifier, IP address, device and app information, install source, and event data. See <a href="https://www.appsflyer.com/legal/privacy-policy/">AppsFlyer’s Privacy Policy</a>.</li>
         <li><strong>GitHub Pages</strong> — hosts this public policy and support website and may process standard web request data under GitHub’s policies.</li>
       </ul>
-      <p>We do not intentionally send the content of your sermons, prayers, Scripture scans, notes, or AI questions to Adapty or AppsFlyer.</p>
+      <p>We do not intentionally send the content of your sermons, prayers, Scripture scans, notes, or AI questions to Adapty or AppsFlyer. HolyNote uses the same pseudonymous installation identifier as the Adapty customer identifier so our server can verify Premium access; the signed credential itself is not sent to AppsFlyer or Adapty.</p>
 
       <h2>7. Analytics, attribution, and tracking</h2>
-      <p>HolyNote does not show third-party ads or sell personal data. App versions that include AppsFlyer may measure installations and selected product or purchase events. We do not enable access to Apple’s advertising identifier (IDFA) or other Apple-defined cross-app tracking without first obtaining permission through App Tracking Transparency where required. You can refuse that permission without losing HolyNote’s core note and Bible-study features.</p>
+      <p>HolyNote does not show third-party ads or sell personal data. The current iOS build may use AppsFlyer to measure installations and selected product or subscription events, but it does not access Apple’s advertising identifier (IDFA), enable Apple-defined cross-app tracking, or request permission through App Tracking Transparency (ATT). If a future version proposes to use IDFA or other Apple-defined tracking, we will update this policy and request permission before enabling it where required.</p>
 
       <h2>8. Subscriptions and purchases</h2>
       <p>Apple processes App Store payments and manages your Apple subscription account. We do not receive your full payment-card number. We and Adapty may receive purchase identifiers, product, price, currency, transaction timing, renewal, trial, refund, and subscription-status information so we can provide paid access, restore purchases, prevent fraud, and understand subscription performance.</p>
@@ -115,7 +115,7 @@
       <p>Depending on where you live, you may have rights to access, correct, delete, restrict, object to, or obtain a copy of personal data, withdraw consent, and complain to a data-protection authority. You may also:</p>
       <ul>
         <li>delete local notes and chats in HolyNote;</li>
-        <li>revoke camera, microphone, photo, notification, or tracking permission in iOS Settings;</li>
+        <li>revoke camera, microphone, photo, or notification permission in iOS Settings;</li>
         <li>manage or cancel subscriptions in your Apple account;</li>
         <li>contact us for a privacy request at <a href="mailto:support@holynote.app?subject=HolyNote%20Privacy%20Request">support@holynote.app</a>.</li>
       </ul>
