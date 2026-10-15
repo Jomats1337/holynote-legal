@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for the HolyNote iOS app and related services.">
+  <meta name="description" content="Privacy Policy for the HolyNote iOS and Android apps and related services.">
   <title>Privacy Policy — HolyNote</title>
   <link rel="stylesheet" href="../assets/styles.css">
 </head>
@@ -21,8 +21,8 @@
     <article class="document">
       <p class="eyebrow">JOMATS FZCO</p>
       <h1>Privacy Policy</h1>
-      <p class="meta">Effective and last updated: August 29, 2026</p>
-      <p class="lede">HolyNote is designed so your personal library stays on your device. Information is sent to our service only when a feature needs online processing, such as creating an AI note or Scripture study.</p>
+      <p class="meta">Effective and last updated: October 15, 2026</p>
+      <p class="lede">This policy covers HolyNote on iOS and Android. Your personal library stays on your device unless you request online processing, such as creating an AI note or Scripture study. Separate technical, subscription, and measurement information is processed as described below; the integrations differ between platforms.</p>
 
       <div class="notice">
         <strong>Important privacy summary</strong>
@@ -31,6 +31,8 @@
           <li>Your saved notes, recordings, images, chat history, reading preferences, and Today progress are stored locally on your device.</li>
           <li>Audio, reviewed Scripture text, YouTube links, and questions are sent only when you request an online AI feature.</li>
           <li>Religious reflections, prayers, and sermons can reveal sensitive beliefs. Please share only content you are comfortable processing online.</li>
+          <li>The Android app sends installation, session, and selected commercial interaction events to Meta, and Adapty shares subscription lifecycle events with Meta. These integrations use pseudonymous identifiers, not the content of your library or AI requests.</li>
+          <li>Android crash reporting through Firebase Crashlytics is optional and controlled by the separate “Crash reports” setting.</li>
           <li>We do not sell personal data or show third-party advertising.</li>
         </ul>
       </div>
@@ -47,7 +49,7 @@
         <li>Bible chat history, highlights, personal verse notes, reading position, and display preferences;</li>
         <li>Today completion, streak progress, onboarding choices, and app settings.</li>
       </ul>
-      <p>This local information is not automatically synced to a HolyNote account. You can delete notes and conversations inside the app. Removing the app or erasing its data generally removes local information, although copies may remain in device backups controlled by you or Apple.</p>
+      <p>This local information is not automatically synced to a HolyNote account. You can delete notes and conversations inside the app. Removing the app or erasing its data generally removes local information. On iOS, copies may remain in device backups controlled by you or Apple. Android app backup and device transfer are disabled. Deleting local data does not automatically delete records held by our service providers.</p>
 
       <h2>3. Information processed online</h2>
       <div class="table-wrap">
@@ -62,7 +64,7 @@
           </tbody>
         </table>
       </div>
-      <p>HolyNote does not need your name, email, contact list, precise location, or Apple account credentials to provide its current core features.</p>
+      <p>HolyNote does not need your name, email, contact list, precise location, or Apple or Google account credentials to provide its current core features. Purchases and store sign-in are handled by the relevant app store, not by entering your store password into HolyNote.</p>
 
       <h2>4. Camera, microphone, photos, and notifications</h2>
       <p>We request device permission only when needed for a feature you choose:</p>
@@ -72,7 +74,7 @@
         <li><strong>Photo library or Files:</strong> to select an image or audio file you choose to import.</li>
         <li><strong>Notifications:</strong> for optional reminders or completion prompts you enable.</li>
       </ul>
-      <p>You can change these permissions in iOS Settings. Denying a permission affects only the related feature.</p>
+      <p>You can change these permissions in your device's Settings on iOS or Android. Denying a permission affects only the related feature.</p>
 
       <h2>5. AI processing and sensitive content</h2>
       <p>HolyNote uses OpenAI API services to transcribe audio and generate requested notes, studies, and answers. We configure supported Responses API requests with storage disabled. OpenAI states that API inputs and outputs are not used to train its models by default unless the API customer opts in. OpenAI may retain API content in abuse-monitoring logs for up to 30 days unless a different approved retention control applies or longer retention is legally required. See <a href="https://openai.com/enterprise-privacy/">OpenAI’s API privacy information</a>.</p>
@@ -83,24 +85,31 @@
       <ul>
         <li><strong>OpenAI</strong> — audio transcription and generation of requested AI notes, studies, and answers.</li>
         <li><strong>Apple</strong> — App Store distribution, payments, subscription management, device permissions, and optional notification services.</li>
+        <li><strong>Google Play</strong> — Android distribution, payments, and subscription management. See <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</li>
         <li><strong>Adapty</strong> — subscription status, paywall delivery, purchase analytics, and an anonymous app profile. In HolyNote’s current iOS configuration, collection of the Apple advertising identifier (IDFA) and IP address by the Adapty SDK is disabled. Adapty may process purchase history, app-instance or other device identifiers, device model, operating system, language, and paywall interactions. See <a href="https://adapty.io/end-users-privacy/">Adapty’s End-Users Privacy Policy</a>.</li>
-        <li><strong>AppsFlyer</strong> — installation attribution and measurement of selected app or subscription events. Depending on configuration and consent, it may process an AppsFlyer identifier, IP address, device and app information, install source, and event data. See <a href="https://www.appsflyer.com/legal/privacy-policy/">AppsFlyer’s Privacy Policy</a>.</li>
+        <li><strong>AppsFlyer (iOS)</strong> — installation attribution and measurement of selected app or subscription events. Depending on configuration and consent, it may process an AppsFlyer identifier, IP address, device and app information, install source, and event data. See <a href="https://www.appsflyer.com/legal/privacy-policy/">AppsFlyer’s Privacy Policy</a>.</li>
+        <li><strong>Meta (Android)</strong> — installation and app-event measurement, advertising attribution, campaign optimization, and subscription measurement. Meta receives the Facebook SDK app-instance identifier, app and device technical information, event times, selected interaction events, and subscription events forwarded by Adapty. Network requests also expose connection information such as IP addresses to the receiving provider. See <a href="https://www.facebook.com/privacy/policy/">Meta’s Privacy Policy</a>.</li>
+        <li><strong>Google Firebase Crashlytics (Android, optional)</strong> — crash and reliability diagnostics when you enable “Crash reports.” Data can include installation identifiers, app and device versions, operating-system information, crash stack traces, and diagnostic metadata. Google Analytics is not enabled in this integration. See <a href="https://firebase.google.com/support/privacy">Firebase’s Privacy and Security information</a>.</li>
         <li><strong>GitHub Pages</strong> — hosts this public policy and support website and may process standard web request data under GitHub’s policies.</li>
       </ul>
-      <p>We do not intentionally send the content of your sermons, prayers, Scripture scans, notes, or AI questions to Adapty or AppsFlyer. HolyNote uses the same pseudonymous installation identifier as the Adapty customer identifier so our server can verify Premium access; the signed credential itself is not sent to AppsFlyer or Adapty.</p>
+      <p>We do not intentionally send the content of your sermons, prayers, Scripture scans, notes, Bible passages or references, YouTube links, or AI questions to Adapty, AppsFlyer, Meta, or Firebase. HolyNote uses the same pseudonymous installation identifier as the Adapty customer identifier so our server can verify Premium access; the signed credential itself is not sent to these analytics providers. Providers may act as processors or independent controllers depending on their service and applicable terms.</p>
 
       <h2>7. Analytics, attribution, and tracking</h2>
       <p>HolyNote does not show third-party ads or sell personal data. The current iOS build may use AppsFlyer to measure installations and selected product or subscription events, but it does not access Apple’s advertising identifier (IDFA), enable Apple-defined cross-app tracking, or request permission through App Tracking Transparency (ATT). If a future version proposes to use IDFA or other Apple-defined tracking, we will update this policy and request permission before enabling it where required.</p>
+      <p><strong>Android app measurement:</strong> the current Android build initializes the Meta SDK when the app enters the foreground. It reports installation and app activation, plus a limited set of commercial events such as onboarding completion, paywall views, plan selection, checkout outcomes, and restore outcomes. These client events do not contain your answers, Scripture, notes, prayers, or AI content. The current build has no in-app advertising-measurement switch and does not wait for a separate advertising opt-in.</p>
+      <p><strong>Subscription measurement:</strong> the Android app passes the Facebook SDK’s “anonymous” app-device identifier to Adapty after SDK activation. Adapty can then associate subscription events with that identifier and forward configured trial, purchase, conversion, renewal, cancellation, expiry, billing, and refund events to Meta. This identifier is pseudonymous: its name does not mean that the related data cannot be associated with an app installation or combined with other information by a provider. Financial lifecycle events are forwarded by Adapty rather than duplicated by the Android client.</p>
+      <p>Android collection of the Google Advertising ID is disabled, and the app does not request the Advertising ID permission. Meta automatic purchase logging, codeless events, and advanced matching are disabled in the app. These restrictions do not eliminate the separate app-instance identifiers or event sharing described above.</p>
+      <p><strong>Optional Android diagnostics:</strong> Firebase Crashlytics remains disabled until you enable “Crash reports” in HolyNote’s Settings. You can turn it off there. This preference is independent of Meta measurement; turning it off does not disable subscription verification or Meta events.</p>
 
       <h2>8. Subscriptions and purchases</h2>
-      <p>Apple processes App Store payments and manages your Apple subscription account. We do not receive your full payment-card number. We and Adapty may receive purchase identifiers, product, price, currency, transaction timing, renewal, trial, refund, and subscription-status information so we can provide paid access, restore purchases, prevent fraud, and understand subscription performance.</p>
+      <p>Apple processes App Store payments on iOS, and Google Play processes purchases on Android. The relevant store manages your subscription account. We do not receive your full payment-card number. We and Adapty may receive purchase identifiers, product, price, currency, transaction timing, renewal, trial, refund, and subscription-status information so we can provide paid access, restore purchases, prevent fraud, and understand subscription performance. On Android, configured lifecycle and purchase information, including transaction identifiers, product, amount, and currency where applicable, is also shared with Meta for subscription and advertising measurement.</p>
 
       <h2>9. Retention and deletion</h2>
       <ul>
         <li><strong>Local content:</strong> remains on your device until you delete it, erase app data, or remove it through device management or backup controls.</li>
         <li><strong>Temporary media:</strong> is normally deleted from HolyNote’s processing server when the job succeeds, fails, or is cancelled. A system crash may delay cleanup until operational maintenance.</li>
         <li><strong>AI job transcripts and results:</strong> remain in the current server’s temporary in-memory job store for no more than 24 hours by default, or until the service restarts.</li>
-        <li><strong>Provider data:</strong> is retained under the service provider’s policy, including OpenAI’s default abuse-monitoring period described above and Apple, Adapty, or AppsFlyer records needed for purchases, attribution, fraud prevention, and legal compliance.</li>
+        <li><strong>Provider data:</strong> is retained under the relevant provider’s policy, including OpenAI’s default abuse-monitoring period described above and Apple, Google Play, Adapty, AppsFlyer, Meta, or Firebase records used for purchases, attribution, diagnostics, fraud prevention, and legal compliance. Retention varies by provider and purpose; uninstalling HolyNote does not automatically erase these records.</li>
         <li><strong>Security logs:</strong> are kept only as long as reasonably necessary for security, reliability, abuse prevention, dispute handling, and legal obligations.</li>
       </ul>
       <p>Because HolyNote currently has no user account, we may not be able to associate an anonymous server job or provider profile with your identity after it expires. For a privacy request, provide only the minimum identifiers needed to locate relevant records. Do not email sermon audio, prayer text, or other sensitive content.</p>
@@ -115,8 +124,9 @@
       <p>Depending on where you live, you may have rights to access, correct, delete, restrict, object to, or obtain a copy of personal data, withdraw consent, and complain to a data-protection authority. You may also:</p>
       <ul>
         <li>delete local notes and chats in HolyNote;</li>
-        <li>revoke camera, microphone, photo, or notification permission in iOS Settings;</li>
-        <li>manage or cancel subscriptions in your Apple account;</li>
+        <li>revoke camera, microphone, photo, or notification permission in your device's Settings;</li>
+        <li>enable or disable optional Android “Crash reports” in HolyNote’s Settings;</li>
+        <li>manage or cancel subscriptions in your Apple account or Google Play account, as applicable;</li>
         <li>contact us for a privacy request at <a href="mailto:support@holynote.app?subject=HolyNote%20Privacy%20Request">support@holynote.app</a>.</li>
       </ul>
       <p>We will not discriminate against you for exercising a privacy right.</p>
