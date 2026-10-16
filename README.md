@@ -8,6 +8,17 @@ Official legal and support pages for the HolyNote iOS and Android apps by JOMATS
 
 The site is static, uses no cookies or analytics scripts, and is deployed from the `main` branch root with GitHub Pages.
 
+## October 16, 2026 — Android AppsFlyer privacy disclosure
+
+Owner-approved addition: Android AppsFlyer install/session attribution,
+pseudonymous UID and allowlisted campaign metadata to Adapty, IP-derived
+approximate location, Meta partner sharing with in-app event postbacks OFF.
+Identifier-disable controls and independent optional diagnostics are described.
+Publication and matching Google Play Data Safety update were explicitly approved
+by the owner. Publish only privacy/index.html and this README; preserve unrelated
+support/terms edits. Public readback and release evidence are recorded in the
+main project's docs/ANDROID_APPSFLYER_2026-10-16.md and HANDOFF_CURRENT.md.
+
 ## October 15, 2026 — Android privacy disclosure update
 
 Owner-approved scope: `privacy/index.html` now distinguishes iOS AppsFlyer from
