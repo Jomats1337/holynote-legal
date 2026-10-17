@@ -8,6 +8,16 @@ Official legal and support pages for the HolyNote iOS and Android apps by JOMATS
 
 The site is static, uses no cookies or analytics scripts, and is deployed from the `main` branch root with GitHub Pages.
 
+## October 18, 2026 — iOS Amplitude disclosure
+
+Owner-approved addition: privacy/index.html adds Amplitude
+technical product analytics, random installation identity, Adapty lifecycle join,
+content exclusions, disabled capture/identifier properties, US processing and
+retention. It also makes the existing iOS AppsFlyer IP-derived approximate
+location explicit. Owner confirmed publication on October18. Publish only
+privacy/index.html and this README; preserve unrelated support/terms edits.
+No worldwide-compliance or legal-basis certification is made by the agent.
+
 ## October 16, 2026 — Android AppsFlyer privacy disclosure
 
 Owner-approved addition: Android AppsFlyer install/session attribution,
