@@ -8,6 +8,42 @@ Official legal and support pages for the HolyNote iOS and Android apps by JOMATS
 
 The site is static, uses no cookies or analytics scripts, and is deployed from the `main` branch root with GitHub Pages.
 
+## October 28, 2026 — iOS Meta/Jomlink policy, publication approved
+
+Owner subsequently approved publication and selected Jomlink retention of96hours.
+The effective copy now uses October28 and has no draft banner. It describes96h
+server retention, parent-bounded observations, minute cleanup and migration
+backups expiring at their oldest record's deadline. Publish only privacy/index.html,
+this README and scripts/check-privacy-policy.mjs. Existing support/terms edits
+must remain excluded. App Privacy answers/certifications and app submission are
+separate; owner deferred the tracking/fingerprinting assessment for now, not a
+finding of compliance. Read live deployment/Pages state before calling published.
+
+Validation: `node scripts/check-privacy-policy.mjs` (11checks), plus visual QA and
+post-push HTTPS body/hash readback. Full rollout receipt is in main docs/
+PRIVACY_POLICY_UPDATE_2026-10-28.md and OWN_ATTRIBUTION_CURRENT.md.
+
+### Historical local-draft step (superseded by approval above)
+
+Owner approved local edits to privacy/index.html only after reviewing the scope.
+The file is visibly marked as an unpublished draft; the public October18 policy
+is not replaced. No commit/push, Pages deployment, App Privacy save, certification,
+or App Review action is authorized by this draft-edit instruction.
+
+Draft additions describe native iOS Meta/automatic purchase metadata, the
+anonymousID-to-Adapty association, conditional iOS Adapty IP collection,
+first-party Jomlink device/network/provider/link context and local storage,
+indefinite server retention distinct from24h retry/AI retention, and support-led
+privacy requests. They remove the unsupported blanket iOS no-tracking claim;
+they do not certify ATT, fingerprinting, legal bases, sale/sharing classification
+or worldwide compliance. Existing company/AI/Android/Terms/Support terms remain
+outside this change; unrelated support/index.html and terms/index.html edits are
+preserved. The local draft banner/effective date must be explicitly reconciled
+before any separately authorized publication.
+
+See main docs/PRIVACY_POLICY_UPDATE_2026-10-28.md for source evidence, validation,
+release blockers and rollback. Do not publish merely because the copy is drafted.
+
 ## October 18, 2026 — iOS Amplitude disclosure
 
 Owner-approved addition: privacy/index.html adds Amplitude
